@@ -1,14 +1,12 @@
 const express = require('express')
-const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
-const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
+
 const app = express()
 app.use(express.json());
 initializeApp();
 
 const db = getFirestore();
 app.get('/verify', (req,res) => {
-  const docRef = db.collection('Auth').doc(req.header('username')).get();
-  res.send(JSON.stringify(docRef));
+ 
   console.log("Hello World");
   console.log(req.header('username'));
   console.log(req.header('password'));
