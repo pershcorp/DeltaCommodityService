@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "express": "^4.17.2",
-    "firebase": "^9.6.2"
-  }
+    "firebase": "^9.6.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0"
+  },
+  "name": "DeltaCommodityService",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pershcorp/DeltaCommodityService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pershcorp/DeltaCommodityService/issues"
+  },
+  "homepage": "https://github.com/pershcorp/DeltaCommodityService#readme",
+  "description": ""
 }
