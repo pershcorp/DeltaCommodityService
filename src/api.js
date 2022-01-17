@@ -29,9 +29,9 @@ router.get('/data/admin', (req,res) => {
         Region: 'India',
         Quantity: '50',
         Purity: '100',
-        BuyingPrice: "40",
-        MarketPrice: "50",
-        Timestamp: "2002-12-20 6:30:00"
+        BuyingPrice: '40',
+        MarketPrice: '50',
+        Timestamp: '2002-12-20 6:30:00'
       }
     ]
   });
