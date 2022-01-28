@@ -1,0 +1,4 @@
+firestore:
+  database:
+    url: ${DB_URL}
+    credentials: ${DB_SECRET}
