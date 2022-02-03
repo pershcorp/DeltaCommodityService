@@ -1,3 +1,11 @@
 spring:
+  application:
+    name: HPR Exports backend
+    desc: Webservice which manages commodity data of HPR Enterprises.
   profiles:
     active: ${PROFILE}
+
+company:
+  name: Persh Corporation
+  website: http://pershcorporation.com
+  email: pershcorp@gmail.com
